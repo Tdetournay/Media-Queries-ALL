@@ -1,0 +1,60 @@
+/* ----------- Galaxy S20 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 767px) 
+  and (-webkit-device-pixel-ratio: 4) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 767px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 767px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: landscape) {
+
+}
+
+/* Retina Media Queries */
+@media
+  only screen and (-webkit-min-device-pixel-ratio: 4.0),
+  only screen and (   min--moz-device-pixel-ratio: 4.0),
+  only screen and (     -o-min-device-pixel-ratio: 4.0/1),
+  only screen and (        min-device-pixel-ratio: 4.0),
+  only screen and (                min-resolution: 563dpi),
+  only screen and (                min-resolution: 4.0dppx) { 
+    /* Retina styles here */
+}
+
+/* Retina Media Queries 2x */
+@media
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (   min--moz-device-pixel-ratio: 2),
+  only screen and (     -o-min-device-pixel-ratio: 2/1),
+  only screen and (        min-device-pixel-ratio: 2),
+  only screen and (                min-resolution: 192dpi),
+  only screen and (                min-resolution: 2dppx) { 
+    /* Retina styles here */
+}
+
+/* Retina Media Queries 3x */
+@media
+  only screen and (-webkit-min-device-pixel-ratio: 3),
+  only screen and (   min--moz-device-pixel-ratio: 3),
+  only screen and (     -o-min-device-pixel-ratio: 3/1),
+  only screen and (        min-device-pixel-ratio: 3),
+  only screen and (                min-resolution: 384dpi),
+  only screen and (                min-resolution: 3dppx) { 
+    /* Retina styles here */
+}
