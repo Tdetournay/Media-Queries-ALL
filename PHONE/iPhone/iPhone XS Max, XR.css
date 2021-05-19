@@ -1,0 +1,26 @@
+/* -----------  iPhone XS Max, XR ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Landscape */
+@media only screen 
+    and (min-device-width: 414px)
+    and (max-device-height: 896px)
+    and (orientation : landscape)
+    and (-webkit-device-pixel-ratio: 3){
+ }
+
+/* Portrait */
+@media only screen
+    and (min-device-width: 414px)
+    and (max-device-height: 896px)
+    and (orientation : portrait)
+    and (-webkit-device-pixel-ratio: 3){
+        
+ }
